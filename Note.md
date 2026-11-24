@@ -19,13 +19,22 @@ Table cadeau
 - id 
 - libelle
 - photo
-- idcategorie
-- idoccasion
-- idTypeDest
 - prix
 - lieu de vente
 - description
 - note(moyenne)
+
+Table occasionCadeau
+- idoccasion
+- idcadeau
+
+Table destCadeau
+- iddestinataire
+- idcadeau
+
+Table categoriecadeau
+- idcategorie
+- idcadeau
 
 Moyenne = somme de note / nb de note
 
